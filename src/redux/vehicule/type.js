@@ -1,0 +1,8 @@
+// VEHICULE
+export const ADD_VEHICULE = 'ADD_VEHICULE'
+export const DELETE_VEHICULE = 'DELETE_VEHICULE'
+export const UPDATE_VEHICULE = 'UPDATE_VEHICULE'
+
+
+
+

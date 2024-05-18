@@ -1,0 +1,8 @@
+// FAMILLE
+export const ADD_FAMILLE = 'ADD_FAMILLE'
+export const DELETE_FAMILLE = 'DELETE_FAMILLE'
+export const UPDATE_FAMILLE = 'UPDATE_FAMILLE'
+
+
+
+

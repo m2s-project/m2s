@@ -1,0 +1,8 @@
+// ATELIER
+export const ADD_ATELIER = 'ADD_ATELIER'
+export const DELETE_ATELIER = 'DELETE_ATELIER'
+export const UPDATE_ATELIER = 'UPDATE_ATELIER'
+
+
+
+

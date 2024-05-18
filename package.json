@@ -1,0 +1,100 @@
+{
+  "name": "M2s",
+  "homepage": "./",
+  "version": "0.0.1",
+  "description": "ERP M2s",
+  "author": "HAROUNA GARBA Mamane",
+  "main": "public/electron.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url":" https://github.com/m2s-project/m2s.git"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.2.96",
+    "@mdi/react": "^1.6.1",
+    "@mdi/svg": "^7.2.96",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^3.41.0",
+    "electron-is-dev": "^2.0.0",
+    "electron-updater": "^6.1.1",
+    "firebase": "^10.1.0",
+    "moment": "^2.29.4",
+    "qrcode": "^1.5.3",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "watch": "nodemon --exec electron .",
+    "win": "electron-builder -w",
+    "make-cert": "electron-builder create-self-signed-cert -p m2s",
+    "deploy": "electron-builder build -w -p onTagOrDraft"
+  },
+  "build": {
+    "appId": "com.m2s.erp",
+    "directories": {
+      "buildResources": "."
+    },
+    "mac": {
+      "publish": [
+        "github"
+      ],
+      "category": "public.app-category.productivity"
+    },
+    "win": {
+      "publish": [
+        "github"
+      ],
+      "certificateFile": "private/m2s.pfx",
+      "verifyUpdateCodeSignature": false,
+      "publisherName": "m2s"
+    },
+    "linux": {
+
+      
+      "publish": [
+        "github"
+      ],
+      "category": "Network"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^25.3.1",
+    "electron-builder": "^24.6.3",
+    "nodemon": "^3.0.1"
+  }
+}

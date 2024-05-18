@@ -1,0 +1,56 @@
+#title-bar {
+
+    display: flex;
+    position: relative;
+    /* top: 0; */
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    border-radius: 1px;
+    z-index: 98;
+
+}
+
+.title-bar-left img {
+    cursor: pointer;
+}
+
+.app-name {
+    margin-left: 5px;
+    font-weight: 00;
+    opacity: 0;
+
+
+    
+}
+
+.title-bar-left {
+    display: flex;
+}
+
+.title-bar-center {
+    display: flex;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.title-bar-right {
+    position: relative;
+    display: flex;
+}
+
+.title-bar-right span {
+    display: flex;
+    cursor: pointer;
+    margin-left: 10px;
+    padding-inline: 3px;
+}
+
+.title-bar-right span:hover {
+    display: flex;
+    cursor: pointer;
+    background-color: var(--nuance);
+    border-radius: var(--border-radius);
+}

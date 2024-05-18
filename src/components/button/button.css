@@ -1,0 +1,40 @@
+.cardLink {
+    display: flex;
+    /* background-color: brown; */
+    margin: 5px;
+    position: relative;
+}
+
+.cardLink-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 120px;
+    max-width: max-content;
+    margin-right: 5px;
+    border: 1px solid var(--nuance);
+}
+
+.cardLink-item:hover {
+    background-color: var(--nuance);
+
+    cursor: pointer;
+
+    color: var(--vert);
+
+    border: 1px solid var(--vert);
+    border-radius: var(--border-radius);
+
+}
+
+.cardLink-item-active {
+    background-color: var(--nuance);
+
+    cursor: pointer;
+
+    color: var(--vert);
+
+    border: 1px solid var(--vert);
+    border-radius: var(--border-radius);
+
+}

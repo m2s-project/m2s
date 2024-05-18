@@ -1,0 +1,66 @@
+.dropdown{
+position: relative;
+z-index: 99;
+right: 0px;
+margin-inline: 5px;
+
+}
+
+.dropdown-toggle{
+    
+border: 0;
+outline: 0;
+background-color: transparent;
+/* position: relative; */
+}
+
+.dropdown-toggle > svg{
+
+color: red;
+
+}
+.dropdown-toggle-badge{
+/* display: flex; */
+align-items: center;
+justify-content: center;
+position: absolute;
+top: -10px;
+
+height: 20px;
+width: 20px;
+border-radius: 50%;
+background-color: blue;
+color: red;
+font-size: 0.8rem;
+
+}
+
+.dropdown-content{
+/* display: none; */
+position: absolute;
+top: calc(100% + 5px);
+right: 0;
+width: max-content;
+
+max-width: 400px;
+background-color: var(--main-bg);
+box-shadow: var(--box-shadow-light);
+border-radius: var(--border-radius);
+padding: 10px;
+overflow: hidden;
+
+
+transform-origin: top right;
+transform: scale(0);
+transition: transform 0.3s ease 0s;
+}
+
+.dropdown-content.active-dd {
+
+transform: scale(1);
+}
+.dropdown-footer{
+    padding: 5px;
+    text-align: center;
+
+}
