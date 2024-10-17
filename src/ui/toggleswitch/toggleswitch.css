@@ -1,0 +1,38 @@
+.toggle-switch {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-label {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: var(--grey-color);
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s;
+}
+
+.toggle-input:checked+.toggle-label .toggle-button {
+    transform: translateX(30px);
+}
+
+.toggle-text {
+    margin-left: 10px;
+}

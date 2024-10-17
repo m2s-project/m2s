@@ -1,0 +1,6 @@
+{
+    "reports": [
+      {"reportId": "RPT003", "title": "Niveaux de Stock Actuels", "generatedBy": "Admin", "creationDate": "2024-09-24"},
+      {"reportId": "RPT004", "title": "Rapport de Surstock", "generatedBy": "Jane Doe", "creationDate": "2024-09-24"}
+    ]
+  }

@@ -1,0 +1,25 @@
+*/ .tabs {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tab-header {
+    display: flex;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.tab-content {
+    padding: 20px;
+}

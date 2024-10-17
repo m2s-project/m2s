@@ -1,0 +1,32 @@
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31px;
+    
+}
+
+.select select {
+    padding: var(--padding);
+    border: none;
+    border-bottom: var(--border);
+    width: max-content;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    width: 100%;
+    
+}
+
+.select label {
+   font-size: smaller;
+    padding: var(--padding);
+    text-transform: uppercase;
+}
+
+.select select:focus {
+    background-color:var(--grey-color);
+    outline-style: none;
+    border-bottom: 2px solid var(--main-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}

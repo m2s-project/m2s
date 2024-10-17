@@ -1,0 +1,26 @@
+.accordion {
+
+    /* border-radius: 5px; */
+    margin-bottom: 5px;
+    border-bottom: var(--border) ;
+}
+
+.accordion-header {
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: var(--border) ;
+    background-color: #f8f9fa;
+    color: var(--main-color);
+    font-weight: 400;
+}
+
+.accordion-header span {
+    /* margin: 0; */
+}
+
+.accordion-content {
+padding: 5px;
+}

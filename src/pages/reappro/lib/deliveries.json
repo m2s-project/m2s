@@ -1,0 +1,6 @@
+{
+    "deliveries": [
+      {"deliveryId": "D001", "requestId": "R003", "itemId": "C789", "quantity": 200, "status": "in transit", "expectedDeliveryDate": "2024-10-01"},
+      {"deliveryId": "D002", "requestId": "R002", "itemId": "B456", "quantity": 50, "status": "delivered", "deliveryDate": "2024-09-23"}
+    ]
+  }

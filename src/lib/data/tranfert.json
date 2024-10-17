@@ -1,0 +1,49 @@
+{
+    "id_transfert": "TRF20240930",
+    "date_transfert": "2024-09-30",
+    "heure_transfert": "10:30:00",
+    "responsable_transfert": {
+      "id_employe": "EMP123",
+      "nom": "Sophie Durand"
+    },
+    "emplacement_origine": {
+      "id_emplacement": "ENT001",
+      "nom": "Entrepôt Principal"
+    },
+    "emplacement_destination": {
+      "id_emplacement": "ENT002",
+      "nom": "Magasin de Réserve"
+    },
+    "articles_transferts": [
+      {
+        "id_article": "ART456",
+        "nom_article": "Pompe à eau",
+        "quantite": 10,
+        "unite_mesure": "pièces",
+        "motif_transfert": "Réapprovisionnement"
+      },
+      {
+        "id_article": "ART789",
+        "nom_article": "Filtre à huile",
+        "quantite": 20,
+        "unite_mesure": "pièces",
+        "motif_transfert": "Réapprovisionnement"
+      }
+    ],
+    "etat_transfert": "Complété",
+    "commentaires": "Transfert effectué avec succès.",
+    "historique_statuts": [
+      {
+        "date_changement": "2024-09-30T10:00:00",
+        "ancien_etat": "En attente",
+        "nouvel_etat": "En cours"
+      },
+      {
+        "date_changement": "2024-09-30T10:30:00",
+        "ancien_etat": "En cours",
+        "nouvel_etat": "Complété"
+      }
+    ],
+    "date_reception": "2024-09-30"
+  }
+  

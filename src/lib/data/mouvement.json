@@ -1,0 +1,31 @@
+{
+    "id_mouvement": "mov123456",
+    "type_mouvement": "sortie",
+    "date_mouvement": "2024-09-30t10:30:00z",
+    "quantite": 50,
+    "article": {
+      "id_article": "art987654",
+      "nom_article": "vis en acier inoxydable",
+      "code_barres": "0123456789012",
+      "unite_de_mesure": "pièces"
+    },
+    "emplacement": {
+      "emplacement_origine": "entrepôt a, rayonnage 2",
+      "emplacement_destination": "atelier de production - zone 1",
+      "site": "usine centrale - paris"
+    },
+    "utilisateur": {
+      "responsable": {
+        "id_utilisateur": "usr123",
+        "nom_utilisateur": "alice dupont"
+      },
+      "motif": "commande client"
+    },
+    "statut": "validé",
+    "remarques": "sortie effectuée pour la commande #12345.",
+    "donnees_traceabilite": {
+      "numero_commande": "cmd54321",
+      "facture_associee": "http://example.com/invoices/invoice_54321.pdf"
+    }
+  }
+  

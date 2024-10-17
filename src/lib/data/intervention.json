@@ -1,0 +1,44 @@
+{
+  "id": "INT123456",
+  "type_intervention": "Corrective",
+  "date_intervention": "2024-09-24",
+  "heure_debut": "10:30",
+  "heure_fin": "12:00",
+  "duree": "1h30",
+  "technicien_responsable": {
+    "id": "TECH001",
+    "nom": "Alice Dupont"
+  },
+  "equipement_concerne": {
+    "id": "EQP123456",
+    "nom": "Pompe à eau haute pression"
+  },
+  "description": "Remplacement du joint d'étanchéité et vérification des roulements.",
+  "taches_realisees": [
+    "Arrêt de la pompe",
+    "Démontage du carter",
+    "Remplacement du joint d'étanchéité",
+    "Réassemblage",
+    "Test de fonctionnement"
+  ],
+  "materiaux_et_pieces_utilisees": [
+    {
+      "nom": "Joint d'étanchéité",
+      "quantite": 1,
+      "cout_unitaire": 15.00
+    },
+    {
+      "nom": "Graisse",
+      "quantite": 1,
+      "cout_unitaire": 5.00
+    }
+  ],
+  "cout_intervention": 50.00,
+  "etat_equipement_apres_intervention": "En fonctionnement",
+  "commentaires_technicien": "Intervention réussie, tout fonctionne normalement.",
+  "rapport_intervention": "http://example.com/reports/intervention_int123456.pdf",
+  "suivi_intervention": {
+    "statut": "Terminée",
+    "priorite": "Haute"
+  }
+}

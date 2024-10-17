@@ -1,0 +1,10 @@
+{
+    "inventoryId": "I003",
+    "validationDate": "2024-09-25",
+    "validatedBy": "John Doe",
+    "discrepancies": [
+      {"itemId": "A123", "theoreticalQuantity": 200, "countedQuantity": 180, "adjustment": -20},
+      {"itemId": "B456", "theoreticalQuantity": 150, "countedQuantity": 150, "adjustment": 0}
+    ],
+    "status": "validated"
+  }

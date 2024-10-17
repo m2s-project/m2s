@@ -1,0 +1,7 @@
+{
+    "contracts": [
+      {"contractId": "C001", "supplierId": "S001", "startDate": "2024-01-01", "endDate": "2024-12-31", "terms": "Remise de 5% pour commandes > 1000 unités", "attachments": ["contract_2024.pdf"]},
+      {"contractId": "C002", "supplierId": "S002", "startDate": "2023-05-01", "endDate": "2024-04-30", "terms": "Livraison en 5 jours ouvrés", "attachments": ["contract_2023.pdf"]}
+    ]
+  }
+  

@@ -1,0 +1,6 @@
+{
+    "reports": [
+      {"reportId": "RPT001", "title": "Mouvements de Stock - Septembre 2024", "period": "2024-09-01 to 2024-09-30", "generatedBy": "Admin", "creationDate": "2024-10-01"},
+      {"reportId": "RPT002", "title": "Rapport d'écart d'inventaire", "period": "2024-09-24", "generatedBy": "John Doe", "creationDate": "2024-09-25"}
+    ]
+  }

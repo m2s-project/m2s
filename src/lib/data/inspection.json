@@ -1,0 +1,42 @@
+{
+    "inspection_id": "INS67890",
+    "name": "Inspection de sécurité trimestrielle",
+    "description": "Inspection complète des systèmes de sécurité de l'usine.",
+    "frequency": "Trimestrielle",
+    "equipment_id": "EQP12345",
+    "type": "Sécuritaire",
+    "technicians": [
+      {
+        "id": "TECH003",
+        "name": "Alice Martin"
+      }
+    ],
+    "status": "Planifiée",
+    "date_created": "2024-09-10T12:00:00",
+    "last_inspection_date": "2024-06-10T12:00:00",
+    "next_inspection_date": "2024-12-10T12:00:00",
+    "results": {
+      "compliance": "Conforme",
+      "non_conformities": []
+    },
+    "corrective_actions": [],
+    "report": {
+      "report_id": "RPT001",
+      "name": "Rapport d'inspection trimestrielle",
+      "url": "https://docs.company.com/inspection_securite_2024"
+    },
+    "technician_comments": "Aucune anomalie détectée lors de l'inspection.",
+    "inspection_criteria": [
+      "Vérification des extincteurs",
+      "Test des alarmes incendie",
+      "Contrôle des issues de secours"
+    ],
+    "tools_required": [
+      {
+        "tool_id": "TOOL001",
+        "name": "Multimètre"
+      }
+    ],
+    "supervisor_approval": true
+  }
+  

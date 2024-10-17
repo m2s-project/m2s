@@ -1,0 +1,14 @@
+{
+    "receiving": {
+      "deliveryId": "D001",
+      "items": [
+        {"itemId": "A123", "quantityReceived": 80, "quantityExpected": 100, "nonConformity": "20 unités manquantes"},
+        {"itemId": "B456", "quantityReceived": 50, "quantityExpected": 50, "nonConformity": null}
+      ],
+      "inspection": {
+        "inspector": "John Doe",
+        "comments": "20 unités de A123 manquantes, fournisseur notifié"
+      }
+    }
+  }
+  

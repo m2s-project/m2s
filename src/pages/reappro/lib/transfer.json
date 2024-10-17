@@ -1,0 +1,12 @@
+{
+    "transferId": "T001",
+    "fromWarehouse": "Entrepôt A",
+    "toWarehouse": "Entrepôt B",
+    "items": [
+      {"itemId": "A123", "quantity": 50},
+      {"itemId": "B456", "quantity": 30}
+    ],
+    "transferDate": "2024-09-24",
+    "status": "completed"
+  }
+  

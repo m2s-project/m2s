@@ -1,0 +1,40 @@
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: var(--header-height);
+    background-color: transparent;
+    box-shadow: var(--box-shadow);
+}
+
+.header-start {
+    margin-left: 5px;
+    padding: var(--padding);
+}
+
+
+.header-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    padding: var(--padding);
+}
+
+.close, .minimize, .maximize{
+  
+    margin-left: 5px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.close:hover, .minimize:hover, .maximize:hover{
+
+    background-color: var(--grey-color);
+}

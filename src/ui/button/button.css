@@ -1,0 +1,31 @@
+/* ButtonComponent.css */
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center  ;
+    padding: 5px 10px;
+    border: none;
+    background-color: var(--button-bg);
+    color: #fff;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    min-width: 105px;
+    margin-bottom: 5px;
+}
+
+.button:hover {
+    background-color: var(--grey-color);
+    color: var(--main-color);
+
+}
+
+.form-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.form-button .button {
+    margin-inline: 2px;
+}

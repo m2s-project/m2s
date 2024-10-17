@@ -1,0 +1,124 @@
+
+.data-table-container {
+  width:100%;
+  /* margin: 20px auto; */
+ }
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.data-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.data-form input {
+  padding: var(--padding);
+  font-size: 16px;
+}
+
+.data-form button {
+  padding:  var(--padding);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.export-button {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: var(--padding);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: var(--padding);
+  width: 50%;
+  font-size: 16px;
+}
+
+.column-visibility {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.column-visibility label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  margin-bottom: 20px;
+}
+
+.data-table th,
+.data-table td {
+  border: var(--border);
+  padding-inline: var(--padding);
+  text-align: center;
+}
+
+.data-table th {
+  background-color: var(--grey-color);
+  cursor: pointer;
+  user-select: none;
+}
+
+.data-table th:hover {
+  background-color: #e2e2e2;
+}
+
+.data-table tr:hover {
+  background-color: var(--grey-color);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.pagination button {
+  padding: var(--padding);
+  cursor: pointer;
+  border-radius: var(--border-radius);
+}
+
+.pagination button.active {
+  background-color: var(--main-color);
+  color: white;
+  
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.rows-per-page {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rows-per-page select {
+  margin-left: 10px;
+  padding: var(--padding);
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

@@ -1,0 +1,95 @@
+{
+    "warehouses": [
+      {"warehouseId": "1", "name": "Entrepôt A", "location": "Zone Industrielle 1", "capacity": 1000, "currentOccupancy": 800},
+      {"warehouseId": "2", "name": "Entrepôt B", "location": "Zone Industrielle 2", "capacity": 500, "currentOccupancy": 450}
+    ]
+  }
+  
+
+  {
+    "warehouses": [
+      {
+        "warehouseId": "WH001",
+        "name": "Entrepôt Principal",
+        "location": "Zone Industrielle, Bâtiment A",
+        "capacity": 50000,
+        "currentOccupancy": 35000,
+        "manager": {
+          "managerId": "MGR001",
+          "name": "Jean Dupont",
+          "contactInfo": {
+            "email": "jean.dupont@example.com",
+            "phone": "+33 1 23 45 67 89"
+          }
+        },
+        "storageZones": [
+          {
+            "zoneId": "Z001",
+            "name": "Zone A",
+            "capacity": 20000,
+            "currentOccupancy": 15000,
+            "items": [
+              {
+                "itemId": "A123",
+                "itemName": "Composant X",
+                "quantity": 5000,
+                "unit": "pièce"
+              },
+              {
+                "itemId": "B456",
+                "itemName": "Composant Y",
+                "quantity": 10000,
+                "unit": "pièce"
+              }
+            ]
+          },
+          {
+            "zoneId": "Z002",
+            "name": "Zone B",
+            "capacity": 30000,
+            "currentOccupancy": 20000,
+            "items": [
+              {
+                "itemId": "C789",
+                "itemName": "Composant Z",
+                "quantity": 20000,
+                "unit": "pièce"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "warehouseId": "WH002",
+        "name": "Entrepôt Secondaire",
+        "location": "Parc Logistique, Bâtiment C",
+        "capacity": 30000,
+        "currentOccupancy": 10000,
+        "manager": {
+          "managerId": "MGR002",
+          "name": "Marie Durand",
+          "contactInfo": {
+            "email": "marie.durand@example.com",
+            "phone": "+33 1 98 76 54 32"
+          }
+        },
+        "storageZones": [
+          {
+            "zoneId": "Z003",
+            "name": "Zone C",
+            "capacity": 15000,
+            "currentOccupancy": 10000,
+            "items": [
+              {
+                "itemId": "D012",
+                "itemName": "Composant W",
+                "quantity": 10000,
+                "unit": "pièce"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

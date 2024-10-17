@@ -1,0 +1,10 @@
+{
+    "inventoryId": "I003",
+    "startDate": "2024-09-24",
+    "responsible": "Jane Doe",
+    "itemsCounted": [
+      {"itemId": "A123", "countedQuantity": 180},
+      {"itemId": "B456", "countedQuantity": 150}
+    ],
+    "status": "in progress"
+  }

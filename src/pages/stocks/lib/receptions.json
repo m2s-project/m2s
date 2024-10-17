@@ -1,0 +1,6 @@
+{
+    "receptions": [
+      {"receptionId": "RC001", "deliveryId": "D002", "itemId": "B456", "receivedQuantity": 50, "status": "accepted", "receptionDate": "2024-09-23"},
+      {"receptionId": "RC002", "deliveryId": "D001", "itemId": "C789", "receivedQuantity": 0, "status": "pending", "expectedReceptionDate": "2024-10-01"}
+    ]
+  }

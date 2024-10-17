@@ -1,0 +1,6 @@
+{
+    "inventories": [
+      {"inventoryId": "I001", "date": "2024-09-10", "responsible": "John Doe", "status": "validated", "discrepancies": 2},
+      {"inventoryId": "I002", "date": "2024-09-24", "responsible": "Jane Doe", "status": "in progress", "discrepancies": 0}
+    ]
+  }

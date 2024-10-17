@@ -1,0 +1,71 @@
+{
+    "id": "WH123456",
+    "nom": "Entrepôt Principal Nord",
+    "adresse": {
+      "rue": "25 Rue des Industriels",
+      "ville": "Lyon",
+      "code_postal": "69007",
+      "pays": "France"
+    },
+    "type_entrepot": "Frigorifique",
+    "description": "Entrepôt de stockage réfrigéré pour la conservation de produits alimentaires périssables.",
+    "dimensions_capacite": {
+      "surface_totale": "1500 m²",
+      "capacite_totale": "4500 m³",
+      "volume_utilise": "3200 m³",
+      "hauteur_max_stockage": "12 m",
+      "nombre_rayons": 120,
+      "capacite_par_rayon": "37.5 m³"
+    },
+    "conditions_environnementales": {
+      "temperature_min": "-5°C",
+      "temperature_max": "5°C",
+      "humidite": "60%",
+      "eclairage": "LED",
+      "ventilation": "Climatisation industrielle"
+    },
+    "securite_acces": {
+      "niveaux_acces": [
+        "Employé",
+        "Superviseur",
+        "Manager"
+      ],
+      "cameras_securite": 20,
+      "systeme_alarme": "Alarme incendie et intrusion",
+      "lutte_contre_incendie": "Sprinkler automatique",
+      "points_acces": {
+        "portes_entree_sortie": 4,
+        "quais_chargement": 6
+      }
+    },
+    "donnees_exploitation": {
+      "responsable_entrepot": {
+        "nom": "Jean Dupont",
+        "contact": "jean.dupont@example.com"
+      },
+      "horaires_ouverture": "08:00 - 18:00",
+      "statut_actuel": "Ouvert",
+      "derniere_inspection": "2024-09-01"
+    },
+    "localisation_geographique": {
+      "latitude": "45.764043",
+      "longitude": "4.835659",
+      "region": "Rhône-Alpes",
+      "proximite_axes_routiers": "2 km de l'autoroute A7"
+    },
+    "inventaire_actuel": {
+      "nombre_total_articles": 15000,
+      "valeur_totale_stock": 1200000.00,
+      "categories_articles_stockes": [
+        "Produits surgelés",
+        "Produits frais",
+        "Produits secs"
+      ]
+    },
+    "technologies_gestion": {
+      "systeme_gestion_stocks": "Dolibarr WMS",
+      "technologie_RFID_code_barres": "Utilisation des étiquettes RFID pour tous les articles",
+      "automatisation": "Systèmes de transport automatisés pour le déplacement des palettes"
+    }
+  }
+  

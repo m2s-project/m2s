@@ -1,0 +1,11 @@
+{
+    "itemId": "E345",
+    "name": "Ressort",
+    "category": "Pièces détachées",
+    "description": "Ressort de compression 10mm",
+    "price": 2.5,
+    "initialStock": 100,
+    "location": "Entrepôt C",
+    "supplier": "Fournisseur X"
+  }
+  

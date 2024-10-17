@@ -1,0 +1,11 @@
+{
+    "dashboard": {
+      "totalStockValue": 150000,
+      "criticalAlerts": 5,
+      "recentMovements": [
+        {"movementId": "M001", "itemId": "A123", "quantity": -10, "date": "2024-09-24"},
+        {"movementId": "M002", "itemId": "B456", "quantity": 50, "date": "2024-09-23"}
+      ]
+    }
+  }
+  

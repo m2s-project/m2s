@@ -1,0 +1,37 @@
+{
+    "id_client": "CUST123456",
+    "nom_client": "Société Exempli",
+    "type_client": "Entreprise",
+    "numero_siret": "123 456 789 00012",
+    "adresse": {
+      "rue": "10 Rue des Fleurs",
+      "code_postal": "75000",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "telephone": "+33 1 23 45 67 89",
+    "email": "contact@exempli.com",
+    "contact_principal": {
+      "nom": "Jean Dupont",
+      "position": "Responsable des Achats",
+      "telephone_contact": "+33 1 98 76 54 32",
+      "email_contact": "jean.dupont@exempli.com"
+    },
+    "historique_commandes": [
+      {
+        "id_commande": "ORD001",
+        "date": "2024-01-15",
+        "montant": 1500.00
+      },
+      {
+        "id_commande": "ORD002",
+        "date": "2024-03-10",
+        "montant": 2500.00
+      }
+    ],
+    "montant_total_depense": 4000.00,
+    "statut": "Actif",
+    "conditions_paiement": "30 jours",
+    "mode_paiement_prefere": "Virement"
+  }
+  

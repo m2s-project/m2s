@@ -1,0 +1,43 @@
+table {
+    position: relative;
+    width: 100%;
+    overflow-y: auto;
+    /* border-spacing: 15px; */
+    /* border-collapse: collapse; */
+
+
+}
+
+
+
+
+table th,
+table td {
+
+    text-align: center;
+border: none;
+   padding-inline: var(--padding);
+    border-bottom: var(--border);
+    border-radius: var(--border-radius);
+    font-size: smaller;
+}
+table th {
+   
+    text-transform: uppercase;
+  font-size: smaller;
+  font-style: oblique;
+  font-weight: 400;
+    background-color: var(--grey-color);
+}
+tbody>tr:hover {
+    background-color: var(--grey-color);
+    color: var(--main-color);
+    cursor: pointer;
+
+}
+
+tbody>tr:focus {
+    background-color: var(--main-color);
+    color: white;
+
+}

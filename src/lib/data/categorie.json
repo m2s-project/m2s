@@ -1,0 +1,57 @@
+{
+    "id": "C001",
+    "nom": "Équipements de bureau",
+    "description": "Catégorie regroupant tous les équipements nécessaires au fonctionnement d'un bureau.",
+    "type": "Produit",
+    "etat": "Actif",
+    "caracteristiques_classification": {
+      "code_de_classification": "EQB001",
+      "niveau_hierarchique": 1,
+      "categorie_parente": null
+    },
+    "attributs_gestion": {
+      "date_creation": "2021-01-15",
+      "date_modification": "2024-09-25",
+      "responsable": "Équipe de gestion des stocks"
+    },
+    "relations": {
+      "articles_associes": [
+        {
+          "id_article": "A001",
+          "nom_article": "Imprimante laser",
+          "quantite_stock": 10
+        },
+        {
+          "id_article": "A002",
+          "nom_article": "Scanner A4",
+          "quantite_stock": 5
+        }
+      ],
+      "fournisseurs": [
+        {
+          "id_fournisseur": "F001",
+          "nom_fournisseur": "BureauPlus"
+        },
+        {
+          "id_fournisseur": "F002",
+          "nom_fournisseur": "TechWorld"
+        }
+      ],
+      "emplacements_stockage": [
+        {
+          "id_emplacement": "S001",
+          "nom_emplacement": "Entrepôt principal"
+        },
+        {
+          "id_emplacement": "S002",
+          "nom_emplacement": "Bureau de la direction"
+        }
+      ]
+    },
+    "donnees_reporting": {
+      "valeur_totale_articles": 15000.00,
+      "stock_minimum": 5,
+      "stock_maximum": 50
+    }
+  }
+  

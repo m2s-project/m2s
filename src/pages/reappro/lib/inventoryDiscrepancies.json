@@ -1,0 +1,7 @@
+{
+    "inventoryDiscrepancies": [
+      {"itemId": "A123", "warehouseId": "WH001", "discrepancy": -20, "responsible": "John Doe"},
+      {"itemId": "B456", "warehouseId": "WH002", "discrepancy": 0, "responsible": "Jane Doe"}
+    ]
+  }
+  

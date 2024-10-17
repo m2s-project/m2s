@@ -1,0 +1,87 @@
+{
+    "movements": [
+      {"movementId": "M001", "itemId": "A123", "type": "entry", "quantity": 100, "date": "2024-09-22", "warehouse": "Entrepôt A"},
+      {"movementId": "M002", "itemId": "B456", "type": "exit", "quantity": 20, "date": "2024-09-23", "warehouse": "Entrepôt B"}
+    ]
+  }
+  
+  {
+    "movements": [
+      {
+        "movementId": "MV001",
+        "type": "Réception",
+        "date": "2024-09-24",
+        "reference": "PO12345",
+        "supplier": {
+          "supplierId": "SUP001",
+          "name": "Fournisseur ABC"
+        },
+        "items": [
+          {
+            "itemId": "A123",
+            "itemName": "Composant X",
+            "quantity": 1000,
+            "unit": "pièce",
+            "location": "Entrepôt Principal - Zone A"
+          },
+          {
+            "itemId": "B456",
+            "itemName": "Composant Y",
+            "quantity": 500,
+            "unit": "pièce",
+            "location": "Entrepôt Principal - Zone A"
+          }
+        ]
+      },
+      {
+        "movementId": "MV002",
+        "type": "Sortie",
+        "date": "2024-09-25",
+        "reference": "SO67890",
+        "customer": {
+          "customerId": "CUST001",
+          "name": "Client XYZ"
+        },
+        "items": [
+          {
+            "itemId": "A123",
+            "itemName": "Composant X",
+            "quantity": 200,
+            "unit": "pièce",
+            "location": "Entrepôt Principal - Zone A"
+          }
+        ]
+      },
+      {
+        "movementId": "MV003",
+        "type": "Transfert",
+        "date": "2024-09-26",
+        "fromLocation": "Entrepôt Principal - Zone A",
+        "toLocation": "Entrepôt Secondaire - Zone C",
+        "items": [
+          {
+            "itemId": "B456",
+            "itemName": "Composant Y",
+            "quantity": 300,
+            "unit": "pièce"
+          }
+        ]
+      },
+      {
+        "movementId": "MV004",
+        "type": "Ajustement",
+        "date": "2024-09-27",
+        "reason": "Erreur d'inventaire",
+        "items": [
+          {
+            "itemId": "C789",
+            "itemName": "Composant Z",
+            "adjustedQuantity": -50,
+            "unit": "pièce",
+            "location": "Entrepôt Principal - Zone B"
+          }
+        ]
+      }
+    ]
+  }
+  

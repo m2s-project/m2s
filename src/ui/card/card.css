@@ -1,0 +1,26 @@
+.card {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-bottom: var(--border);
+}
+
+.card-content {
+    padding: 5px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-description {
+    margin: 5px 0;
+    color: #666;
+}

@@ -1,0 +1,22 @@
+.breadcrumbs .item {
+
+  text-transform: uppercase;
+  font-size: smaller;
+  font-style: oblique;
+  font-weight: 400;
+  background-color: var(--grey-color);
+  border-radius: var(--border-radius);
+padding-inline: 5px;
+margin-left: 2px;
+}
+
+.breadcrumbs .item:hover {
+  color: var(--main-color);
+}
+
+.breadcrumbs .separator {
+  padding-inline: 2px;
+background-color: white;
+border-radius: var(--border-radius);
+margin-inline: 5px;
+}

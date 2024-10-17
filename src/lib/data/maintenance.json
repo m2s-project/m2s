@@ -1,0 +1,69 @@
+{
+  "id_maintenance": "MTN987654",
+  "type_maintenance": "Préventive",
+  "equipement_concerne": {
+    "id_equipement": "EQP123456",
+    "nom": "Pompe à eau haute pression"
+  },
+  "description": "Entretien préventif incluant le nettoyage des filtres et la vérification des joints.",
+  "technicien_responsable": "Jean Dupont",
+  "details": {
+    "date_debut": "2024-09-25T09:00:00Z",
+    "date_fin": "2024-09-25T11:30:00Z",
+    "duree_totale": "2 heures 30 minutes",
+    "cout_maintenance": 150.00,
+    "pieces_remplacees": [
+      {
+        "nom_piece": "Joint d'étanchéité",
+        "quantite": 2,
+        "prix_unitaire": 15.00
+      },
+      {
+        "nom_piece": "Filtre à eau",
+        "quantite": 1,
+        "prix_unitaire": 20.00
+      }
+    ],
+    "outils_utilises": [
+      "Clé à molette",
+      "Tournevis",
+      "Pompe à vide"
+    ],
+    "problems_rencontres": [
+      "Joint d'étanchéité usé, nécessitant un remplacement immédiat.",
+      "Filtre obstrué, nettoyage nécessaire."
+    ]
+  },
+  "statut": {
+    "etat_actuel": "Terminée",
+    "commentaires": "Entretien effectué avec succès. L'équipement fonctionne normalement.",
+    "rapport_de_maintenance": "http://example.com/reports/maintenance_mtn987654.pdf"
+  },
+  "historique_interventions": [
+    {
+      "date": "2024-06-01",
+      "type": "Inspection annuelle",
+      "description": "Inspection générale de l'équipement."
+    },
+    {
+      "date": "2023-12-01",
+      "type": "Entretien préventif",
+      "description": "Remplacement de joints et nettoyage des filtres."
+    }
+  ],
+  "recommandations": [
+    "Planifier un contrôle approfondi dans 6 mois.",
+    "Remplacer le filtre à eau tous les 3 mois pour éviter des obstructions."
+  ],
+  "documents_associes": {
+    "manuel_utilisation": "http://example.com/manuals/pompe_crn15-9.pdf",
+    "certificats": [
+      "Certification de conformité ISO",
+      "Certificat de sécurité"
+    ],
+    "photos": [
+      "http://example.com/images/maintenance_pompe_1.jpg",
+      "http://example.com/images/maintenance_pompe_2.jpg"
+    ]
+  }
+}

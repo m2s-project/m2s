@@ -1,0 +1,21 @@
+
+.textarea {
+    padding: 8px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    width: 100%;
+    height: 50px;
+    /* Ajuster la hauteur selon les besoins */
+    resize: vertical;
+    /* Permettre le redimensionnement vertical */
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.textarea:focus{
+    outline-color: var(--grey-color);
+    outline-style: none;
+    border-bottom: 2px solid var(--main-color);
+    background-color: var(--grey-color);
+}

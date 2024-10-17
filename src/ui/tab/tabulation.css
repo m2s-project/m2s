@@ -1,0 +1,25 @@
+*/ .tabs {
+    border:var(--border);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tab-header {
+    display: flex;
+}
+
+.tab {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.tab-content {
+    padding: 5px;
+}

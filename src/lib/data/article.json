@@ -1,0 +1,53 @@
+{
+    "codeArticle": "ART12345",
+    "nomArticle": "Moteur Électrique 500W",
+    "categorie": "Électrique",
+    "description": "Moteur électrique pour entraînement de convoyeur industriel.",
+    "statut": "Actif",
+    "referenceFabricant": "MO500W-IND",
+    "marque": "Motrix",
+    "modele": "500W-2024",
+    "dimensions": {
+      "longueur": "50 cm",
+      "largeur": "30 cm",
+      "hauteur": "40 cm"
+    },
+    "poids": "15 kg",
+    "matiere": "Aluminium",
+    "normes": ["ISO 9001", "CE"],
+    "uniteDeMesure": "Pièce",
+    "quantiteMinimum": 5,
+    "quantiteEnStock": 20,
+    "emplacement": "Allée 3, Étagère 12",
+    "volume": "0.06 m3",
+    "delaiDeLivraison": "5 jours",
+    "fournisseurPrincipal": "Fournitures Industrielles XYZ",
+    "referenceFournisseur": "XYZ-MO500W",
+    "prixAchat": 15000,
+    "conditionsAchat": "Commande minimum de 5 unités",
+    "historiqueAchat": [
+      {"date": "2023-08-10", "quantite": 10, "prixUnitaire": 14000},
+      {"date": "2024-01-15", "quantite": 10, "prixUnitaire": 15000}
+    ],
+    "stockDeSecurite": 3,
+    "seuilDeReapprovisionnement": 7,
+    "stockMaximum": 50,
+    "historiqueMouvements": [
+      {"date": "2023-09-01", "mouvement": "entrée", "quantite": 10},
+      {"date": "2023-10-01", "mouvement": "sortie", "quantite": 5}
+    ],
+    "compatibilite": ["Convoyeur modèle X", "Convoyeur modèle Y"],
+    "historiqueMaintenance": [
+      {"date": "2023-12-01", "equipement": "Convoyeur modèle X", "intervention": "Remplacement moteur"}
+    ],
+    "tva": 18,
+    "coutDeTransport": 1000,
+    "modeDePaiement": "Virement bancaire",
+    "echeanceDePaiement": "30 jours",
+    "image": "url-de-l-image.jpg",
+    "fichesTechniques": ["fichier-technique.pdf"],
+    "certificats": ["certificat-CE.pdf"],
+    "notes": "Compatible avec les variateurs de fréquence standard.",
+    "etatUsure": "Neuf"
+  }
+  

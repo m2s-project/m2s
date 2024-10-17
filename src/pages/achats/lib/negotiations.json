@@ -1,0 +1,7 @@
+{
+    "negotiations": [
+      {"negotiationId": "N001", "supplierId": "S001", "initialProposal": {"pricePerUnit": 10, "minimumOrderQuantity": 100}, "counterProposal": {"pricePerUnit": 9, "minimumOrderQuantity": 200}, "status": "en cours"},
+      {"negotiationId": "N002", "supplierId": "S002", "initialProposal": {"deliveryTime": "7 jours", "discount": 5}, "counterProposal": {"deliveryTime": "5 jours", "discount": 4}, "status": "accepté"}
+    ]
+  }
+  

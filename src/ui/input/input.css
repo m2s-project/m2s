@@ -1,0 +1,33 @@
+.form-input {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-input label {
+    display: block;
+    padding: var(--padding);
+    text-transform: uppercase;
+   
+    min-width: max-content;
+    font-size: smaller;
+}
+
+.form-input input {
+    width: 100%;
+    
+    padding: var(--padding);
+    border: none;
+    border-bottom: var(--border);
+
+}
+
+.form-input input:focus {
+background-color:var(--grey-color);
+outline-style: none;
+border-bottom: 2px solid var(--main-color);
+border-top-left-radius: var(--border-radius);
+border-top-right-radius: var(--border-radius);
+
+}

@@ -1,0 +1,22 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.search input {
+    text-align: center;
+    border: none;
+    padding: var(--padding);
+    /* background-color: var(--grey-color); */
+
+}
+
+.search input:focus {
+    outline-color: var(--main-color);
+}
+
+.search svg {
+    margin-left: -25px;
+}

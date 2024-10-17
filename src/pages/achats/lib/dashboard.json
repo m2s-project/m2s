@@ -1,0 +1,11 @@
+{
+    "dashboard": {
+      "pendingOrders": 5,
+      "expectedDeliveries": 3,
+      "supplierPerformance": [
+        {"supplierId": "S001", "onTimeDeliveryRate": 95, "qualityRating": 4.5},
+        {"supplierId": "S002", "onTimeDeliveryRate": 85, "qualityRating": 4.2}
+      ]
+    }
+  }
+  

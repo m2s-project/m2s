@@ -1,0 +1,16 @@
+{
+    "warehouseId": "3",
+    "name": "Entrepôt C",
+    "location": "Zone Industrielle 3",
+    "capacity": 1500,
+    "currentOccupancy": 0
+  }
+  
+
+  {
+    "warehouses": [
+      {"warehouseId": "WH001", "name": "Entrepôt Principal", "location": "Zone Industrielle", "capacity": 5000, "type": "général", "responsible": "John Doe"},
+      {"warehouseId": "WH002", "name": "Entrepôt Froid", "location": "Parc Logistique", "capacity": 2000, "type": "froid", "responsible": "Jane Doe"}
+    ]
+  }
+  

@@ -1,0 +1,7 @@
+.tiers {
+    position: relative;
+    width: 100%;
+    padding: var(--padding);
+    border: var(--border);
+}
+

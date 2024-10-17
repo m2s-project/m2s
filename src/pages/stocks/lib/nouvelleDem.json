@@ -1,0 +1,11 @@
+{
+    "requestId": "R003",
+    "itemId": "C789",
+    "quantity": 200,
+    "requestDate": "2024-09-24",
+    "status": "pending",
+    "supplier": "Fournisseur Z",
+   
+         "expectedDeliveryDate": "2024-10-01"
+     }
+     

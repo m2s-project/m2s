@@ -1,0 +1,7 @@
+{
+    "replenishmentRequests": [
+      {"requestId": "R001", "itemId": "A123", "quantity": 100, "requestDate": "2024-09-20", "status": "pending"},
+      {"requestId": "R002", "itemId": "B456", "quantity": 50, "requestDate": "2024-09-21", "status": "approved"}
+    ]
+  }
+  

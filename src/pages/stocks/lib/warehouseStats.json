@@ -1,0 +1,9 @@
+{
+    "warehouseStats": {
+      "warehouseId": "WH001",
+      "capacityUsage": 85,
+      "averageStockRotation": 3.5,
+      "occupancyRate": 75
+    }
+  }
+  

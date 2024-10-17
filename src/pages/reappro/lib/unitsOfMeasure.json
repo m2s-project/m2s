@@ -1,0 +1,7 @@
+{
+    "unitsOfMeasure": [
+      {"unitId": "UOM001", "name": "kg", "conversionFactor": 1000, "baseUnit": "g"},
+      {"unitId": "UOM002", "name": "litre", "conversionFactor": 1000, "baseUnit": "ml"}
+    ]
+  }
+  

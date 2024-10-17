@@ -1,0 +1,15 @@
+{
+    "alerts": [
+      {"itemId": "C789", "itemName": "Pignon", "status": "low stock", "currentStock": 5, "threshold": 10},
+      {"itemId": "D012", "itemName": "Chaîne", "status": "out of stock", "currentStock": 0, "threshold": 5}
+    ]
+  }
+  
+
+  {
+    "alerts": [
+      {"alertId": "AL001", "type": "sous-stock", "itemId": "A123", "currentStock": 15, "threshold": 20, "notified": false},
+      {"alertId": "AL002", "type": "retard livraison", "requestId": "R001", "expectedDeliveryDate": "2024-09-20", "daysLate": 5, "notified": true}
+    ]
+  }
+  

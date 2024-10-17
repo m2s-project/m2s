@@ -1,0 +1,7 @@
+{
+    "importedArticles": [
+      {"itemId": "F678", "name": "Roulement", "category": "Roulements", "stock": 50, "location": "Entrepôt A"},
+      {"itemId": "G910", "name": "Engrenage", "category": "Transmission", "stock": 30, "location": "Entrepôt B"}
+    ]
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "movementId": "M005",
+    "itemId": "A123",
+    "type": "internal transfer",
+    "quantity": 10,
+    "fromLocation": "Zone 1",
+    "toLocation": "Zone 2",
+    "warehouse": "Entrepôt A",
+    "date": "2024-09-24"
+  }
+  

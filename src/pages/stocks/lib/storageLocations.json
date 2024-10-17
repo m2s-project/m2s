@@ -1,0 +1,7 @@
+{
+    "storageLocations": [
+      {"locationId": "SL001", "warehouseId": "WH001", "section": "A", "shelf": "5", "bin": "3"},
+      {"locationId": "SL002", "warehouseId": "WH002", "section": "C", "shelf": "2", "bin": "1"}
+    ]
+  }
+  

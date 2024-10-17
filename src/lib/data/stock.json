@@ -1,0 +1,60 @@
+
+{
+  "id_article": "art789012",
+  "nom_article": "roulement à billes skf",
+  "categorie": "pièce détachée",
+  "reference_interne": "rb12345",
+  "description": "roulement à billes pour machines industrielles.",
+  "quantite_en_stock": 150,
+  "quantite_minimum": 20,
+  "quantite_maximum": 300,
+  "seuil_alerte": 30,
+  "emplacement": {
+    "localisation": "rayon a3, étagère 5",
+    "entrepot": "entrepôt principal - zone b"
+  },
+  "donnees_gestion": {
+    "prix_unitaire_achat": 10.50,
+    "prix_unitaire_vente": 15.00,
+    "cout_stockage": 0.05,
+    "date_entree_stock": "2024-09-10",
+    "date_peremption": null,
+    "fournisseur": {
+      "nom": "skf distributeur",
+      "contact": "contact@skfdistributeur.com",
+      "telephone": "+33 1 23456789"
+    }
+  },
+  "mouvements_stock": {
+    "derniere_entree": {
+      "date": "2024-09-10",
+      "quantite": 50,
+      "fournisseur": "skf distributeur"
+    },
+    "derniere_sortie": {
+      "date": "2024-09-20",
+      "quantite": 10,
+      "destinataire": "atelier de maintenance"
+    },
+    "historique": [
+      {
+        "date": "2024-08-01",
+        "type": "sortie",
+        "quantite": 15,
+        "destinataire": "ligne de production 1"
+      },
+      {
+        "date": "2024-07-15",
+        "type": "entrée",
+        "quantite": 100,
+        "fournisseur": "skf distributeur"
+      }
+    ]
+  },
+  "informations_supplementaires": {
+    "statut": "en stock",
+    "numero_lot": "lot20240801",
+    "responsable_stock": "pierre dupont",
+    "unite_mesure": "pièce"
+  }
+}

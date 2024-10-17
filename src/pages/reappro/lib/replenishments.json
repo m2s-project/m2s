@@ -1,0 +1,73 @@
+{
+    "replenishments": [
+      {
+        "replenishmentId": "RP001",
+        "status": "Proposition",
+        "date": "2024-09-30",
+        "items": [
+          {
+            "itemId": "A123",
+            "itemName": "Composant X",
+            "quantityNeeded": 2000,
+            "currentStock": 1000,
+            "minimumStock": 1500,
+            "proposedQuantity": 1000,
+            "supplier": {
+              "supplierId": "SUP001",
+              "name": "Fournisseur ABC"
+            }
+          },
+          {
+            "itemId": "B456",
+            "itemName": "Composant Y",
+            "quantityNeeded": 1500,
+            "currentStock": 500,
+            "minimumStock": 1000,
+            "proposedQuantity": 1000,
+            "supplier": {
+              "supplierId": "SUP002",
+              "name": "Fournisseur XYZ"
+            }
+          }
+        ]
+      },
+      {
+        "replenishmentId": "RP002",
+        "status": "Commande",
+        "date": "2024-09-30",
+        "supplier": {
+          "supplierId": "SUP001",
+          "name": "Fournisseur ABC"
+        },
+        "orderReference": "PO12345",
+        "items": [
+          {
+            "itemId": "A123",
+            "itemName": "Composant X",
+            "orderedQuantity": 1000,
+            "unitPrice": 5.0,
+            "totalPrice": 5000.0,
+            "deliveryDate": "2024-10-05"
+          }
+        ]
+      },
+      {
+        "replenishmentId": "RP003",
+        "status": "Réception",
+        "date": "2024-10-05",
+        "supplier": {
+          "supplierId": "SUP001",
+          "name": "Fournisseur ABC"
+        },
+        "items": [
+          {
+            "itemId": "A123",
+            "itemName": "Composant X",
+            "receivedQuantity": 1000,
+            "location": "Entrepôt Principal - Zone A"
+          }
+        ]
+      }
+    ]
+  }
+  

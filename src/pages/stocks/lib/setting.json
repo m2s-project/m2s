@@ -1,0 +1,11 @@
+{
+    "settings": {
+      "alertThreshold": 10,
+      "reorderRules": {
+        "minStockLevel": 50,
+        "reorderQuantity": 100
+      },
+      "unitsOfMeasure": ["piece", "box", "kg", "liter"]
+    }
+  }
+  

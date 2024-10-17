@@ -1,0 +1,55 @@
+.profil {
+    position: relative;
+    z-index: 99;
+}
+
+.profil-toggle {
+    display: flex;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.profil-toggle:hover {
+    border-radius: 50%;
+    background-color: var(--grey-color);
+}
+
+.profil-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    width: max-content;
+    max-width: 400px;
+    padding: var(--padding);
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    transform-origin: top right;
+    transform: scale(0);
+    transition: transform 0.3s ease 0s;
+}
+
+.profil-content button {
+    color: white;
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+    border: none;
+    padding: var(--padding);
+}
+
+.profil-content button:hover {
+    background-color: var(--grey-color);
+}
+
+.profil-content.visible {
+    transform: scale(1);
+    transition: transform 0.5s var(--transition-cubic) 0s;
+}

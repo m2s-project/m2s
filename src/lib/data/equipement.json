@@ -1,0 +1,87 @@
+{
+    "id": "EQP123456",
+    "nom": "Pompe à eau haute pression",
+    "categorie": "Pompe",
+    "marque": "Grundfos",
+    "modele": "CRN15-9",
+    "numero_serie": "SN5678XYZ",
+    "description": "Pompe à eau haute pression pour systèmes de refroidissement industriels.",
+    "caracteristiques_techniques": {
+      "puissance": "5.5 kW",
+      "dimensions": {
+        "longueur": "800 mm",
+        "largeur": "400 mm",
+        "hauteur": "600 mm"
+      },
+      "poids": "45 kg",
+      "capacite": "15 m³/h",
+      "tension_de_fonctionnement": "380V",
+      "frequence": "50Hz",
+      "temperature_de_fonctionnement": {
+        "min": "-10°C",
+        "max": "90°C"
+      },
+      "vitesse": "2900 RPM"
+    },
+    "donnees_achat_gestion": {
+      "date_achat": "2022-03-15",
+      "fournisseur": "EauPlus Services",
+      "cout_achat": 5500.00,
+      "duree_de_vie_estimee": "10 ans",
+      "garantie": "2 ans",
+      "statut": "proprietaire"
+    },
+    "informations_maintenance": {
+      "plan_maintenance": "Entretien préventif tous les 6 mois, inspection annuelle.",
+      "derniere_maintenance": "2024-06-01",
+      "prochaine_maintenance": "2024-12-01",
+      "interventions_passees": [
+        {
+          "date": "2023-12-01",
+          "type": "Entretien préventif",
+          "description": "Changement des joints et vérification des roulements.",
+          "technicien": "Jean Dupont"
+        },
+        {
+          "date": "2023-06-01",
+          "type": "Inspection annuelle",
+          "description": "Nettoyage des filtres et test de performance.",
+          "technicien": "Marie Martin"
+        }
+      ],
+      "MTBF": "5000 heures",
+      "MTTR": "4 heures"
+    },
+    "emplacement": {
+      "localisation": "Atelier de production - Bâtiment A, Étage 2, Salle 5",
+      "site_installation": "Usine Centrale - Paris"
+    },
+    "statut_operationnel": {
+      "etat_actuel": "En fonctionnement",
+      "temps_de_fonctionnement": "12000 heures",
+      "etat_usure": "30%"
+    },
+    "documents_associes": {
+      "manuel_utilisation": "http://example.com/manuals/pompe_crn15-9.pdf",
+      "fiche_technique": "http://example.com/specs/pompe_crn15-9.pdf",
+      "photos": [
+        "http://example.com/images/pompe_crn15-9_1.jpg",
+        "http://example.com/images/pompe_crn15-9_2.jpg"
+      ],
+      "certifications": [
+        "Certification CE",
+        "Certification ISO 9001"
+      ],
+      "assurance": {
+        "numero_police": "INS123456789",
+        "compagnie": "Assurances Equipements Inc."
+      }
+    },
+    "capteurs": {
+      "temperature_actuelle": "65°C",
+      "vibration": "Normale",
+      "humidite": "45%",
+      "derniere_mesure": "2024-09-24T15:00:00Z"
+    }
+  }
+  

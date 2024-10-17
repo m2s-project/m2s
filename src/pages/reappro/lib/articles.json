@@ -1,0 +1,7 @@
+{
+    "articles": [
+      {"itemId": "A123", "name": "Vis", "category": "Fixations", "stock": 200, "location": "Entrepôt A"},
+      {"itemId": "B456", "name": "Boulon", "category": "Fixations", "stock": 150, "location": "Entrepôt B"}
+    ]
+  }
+  

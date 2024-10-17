@@ -1,0 +1,7 @@
+{
+    "suppliers": [
+      {"supplierId": "S001", "name": "Fournisseur A", "contact": {"email": "contact@fournisseura.com", "phone": "123456789"}, "paymentTerms": "30 jours", "averageDeliveryTime": "7 jours", "evaluation": {"onTime": 95, "quality": 4.5}},
+      {"supplierId": "S002", "name": "Fournisseur B", "contact": {"email": "contact@fournisseurb.com", "phone": "987654321"}, "paymentTerms": "60 jours", "averageDeliveryTime": "10 jours", "evaluation": {"onTime": 85, "quality": 4.2}}
+    ]
+  }
+  

@@ -1,0 +1,61 @@
+{
+    "id_livraison": "LIV123456",
+    "numero_commande": "CMD789012",
+    "date_livraison": "2024-09-30",
+    "statut_livraison": "En cours",
+    "mode_livraison": "Terrestre",
+    "transporteur": "Transport Express S.A.",
+    
+    "expediteur": {
+      "nom": "Société XYZ",
+      "adresse": {
+        "rue": "123 Rue de l'Industrie",
+        "ville": "Lyon",
+        "code_postal": "69001",
+        "pays": "France"
+      },
+      "contact": {
+        "telephone": "+33 4 12 34 56 78",
+        "email": "contact@societexyz.com"
+      }
+    },
+  
+    "destinataire": {
+      "nom": "Client ABC",
+      "adresse": {
+        "rue": "456 Avenue du Commerce",
+        "ville": "Marseille",
+        "code_postal": "13001",
+        "pays": "France"
+      },
+      "contact": {
+        "telephone": "+33 4 87 65 43 21",
+        "email": "client@abc.com"
+      }
+    },
+  
+    "details_livraison": {
+      "articles": [
+        {
+          "nom_article": "Produit A",
+          "quantite": 10,
+          "poids": "1.5 kg"
+        },
+        {
+          "nom_article": "Produit B",
+          "quantite": 5,
+          "poids": "0.5 kg"
+        }
+      ],
+      "poids_total": "15 kg",
+      "volume_total": "0.1 m³",
+      "numero_suivi": "TRK987654321"
+    },
+  
+    "informations_logistiques": {
+      "date_expedition": "2024-09-28",
+      "date_reception": null,
+      "commentaires": "Livrer avant 17h, contacter le destinataire à l'arrivée."
+    }
+  }
+  

@@ -1,0 +1,8 @@
+{
+    "movementTypes": [
+      {"movementTypeId": "MT001", "name": "Entrée", "description": "Ajout de stock dans l'entrepôt"},
+      {"movementTypeId": "MT002", "name": "Sortie", "description": "Retrait de stock de l'entrepôt"},
+      {"movementTypeId": "MT003", "name": "Transfert", "description": "Transfert de stock entre entrepôts"}
+    ]
+  }
+  

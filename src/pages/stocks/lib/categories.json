@@ -1,0 +1,7 @@
+{
+    "categories": [
+      {"categoryId": "C001", "name": "Pièces détachées", "attributes": ["marque", "modèle", "année"]},
+      {"categoryId": "C002", "name": "Produits finis", "attributes": ["marque", "poids", "volume"]}
+    ]
+  }
+  

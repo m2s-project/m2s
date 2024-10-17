@@ -1,0 +1,78 @@
+{
+    "id_utilisateur": "USR123456",
+    "nom_complet": "Alice Dupont",
+    "nom_utilisateur": "alice.dupont",
+    "email": "alice.dupont@example.com",
+    "telephone": "+33 1 23 45 67 89",
+    "date_de_naissance": "1985-04-15",
+    "adresse": {
+      "rue": "10 rue de l'Industrie",
+      "ville": "Paris",
+      "code_postal": "75001",
+      "pays": "France"
+    },
+    "role": "Technicien",
+    "permissions": [
+      "consulter_rapports",
+      "creer_ticket",
+      "modifier_equipement"
+    ],
+    "authentification": {
+      "mot_de_passe": "**********",
+      "methode_authentification": "Email",
+      "token_authentification": "eyJhbGciOiJIUzI1NiIsInR..."
+    },
+    "statut_compte": "Actif",
+    "date_creation": "2022-05-10",
+    "derniere_connexion": "2024-09-30T08:30:00Z",
+    "activites_recentes": [
+      {
+        "date": "2024-09-29T14:45:00Z",
+        "action": "Création d'un ticket de maintenance",
+        "details": "Ticket #4567 pour le remplacement d'une pompe"
+      },
+      {
+        "date": "2024-09-28T10:15:00Z",
+        "action": "Connexion à l'application",
+        "details": ""
+      }
+    ],
+    "preferences": {
+      "langue_preferree": "Français",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      },
+      "theme": "sombre"
+    },
+    "historique_maintenance": {
+      "historique_tickets": [
+        {
+          "id_ticket": "TCK1234",
+          "date_creation": "2024-09-25",
+          "etat": "Résolu",
+          "description": "Remplacement de la courroie sur le moteur principal."
+        },
+        {
+          "id_ticket": "TCK4567",
+          "date_creation": "2024-09-29",
+          "etat": "En cours",
+          "description": "Remplacement de la pompe à eau."
+        }
+      ],
+      "equipements_associés": [
+        {
+          "id_equipement": "EQP987654",
+          "nom_equipement": "Moteur principal",
+          "etat": "Fonctionnel"
+        },
+        {
+          "id_equipement": "EQP123456",
+          "nom_equipement": "Pompe à eau",
+          "etat": "En attente de remplacement"
+        }
+      ]
+    }
+  }
+  

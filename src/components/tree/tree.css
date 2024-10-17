@@ -1,0 +1,31 @@
+.tree-container {
+    /* padding-left: 10px; */
+   font-size: smaller;
+  }
+  
+  .tree-node {
+    margin-left: 5px;
+    position: relative;
+  }
+  
+  .node-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    /* margin-right: 8px; */
+    font-weight: bold;
+  }
+  
+  .node-children {
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+  }
+  

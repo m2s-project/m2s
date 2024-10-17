@@ -1,0 +1,38 @@
+{
+    "id_reapprovisionnement": "REP789012",
+    "date_reapprovisionnement": "2024-09-29",
+    "fournisseur": "Fournitures Industrielles SA",
+    "methode_reapprovisionnement": "Commande standard",
+    "articles": [
+      {
+        "id_article": "ART123456",
+        "nom_article": "Vis en acier M10",
+        "categorie": "Fournitures",
+        "quantite_commandee": 100,
+        "quantite_recue": 100,
+        "unite_de_mesure": "pièces",
+        "prix_unitaire": 0.05,
+        "cout_total": 5.00
+      },
+      {
+        "id_article": "ART654321",
+        "nom_article": "Huile hydraulique 5L",
+        "categorie": "Fournitures",
+        "quantite_commandee": 20,
+        "quantite_recue": 15,
+        "unite_de_mesure": "litres",
+        "prix_unitaire": 10.00,
+        "cout_total": 200.00
+      }
+    ],
+    "statut": {
+      "etat_actuel": "Partiellement reçu",
+      "date_reception_prevue": "2024-10-05",
+      "commentaires": "Les vis ont été reçues, en attente de l'huile hydraulique."
+    },
+    "documents_associes": {
+      "bon_de_commande": "http://example.com/commandes/bon_reapprovisionnement_REP789012.pdf",
+      "facture_fournisseur": "http://example.com/factures/facture_REP789012.pdf"
+    }
+  }
+  

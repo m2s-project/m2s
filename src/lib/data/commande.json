@@ -1,0 +1,72 @@
+{
+  "id_commande": "cmd20240924001",
+  "type_commande": "achat",
+  "date_commande": "2024-09-24",
+  "statut_commande": "en attente",
+  "reference_externe": "extcmd202309001",
+  "client_fournisseur": {
+    "id": "f12345",
+    "nom": "abc fournitures",
+    "adresse_facturation": "12 rue des marchands, 75001 paris, france",
+    "adresse_livraison": "zone industrielle - entrepôt 3, 93300 aubervilliers, france",
+    "contacts": {
+      "telephone": "+33 1 23 45 67 89",
+      "email": "contact@abcfournitures.com"
+    }
+  },
+  "articles": [
+    {
+      "id_article": "art987654",
+      "nom": "pompe à eau haute pression",
+      "quantite_commandee": 10,
+      "prix_unitaire": 500.00,
+      "montant_total": 5000.00
+    },
+    {
+      "id_article": "art123456",
+      "nom": "filtre à eau industriel",
+      "quantite_commandee": 20,
+      "prix_unitaire": 50.00,
+      "montant_total": 1000.00
+    }
+  ],
+  "conditions_financieres": {
+    "montant_total_commande": 6600.00,
+    "taxes_appliquees": 600.00,
+    "mode_paiement": "virement bancaire",
+    "date_echeance": "2024-10-15",
+    "paiement_recu": 0.00,
+    "solde_restant": 6600.00
+  },
+  "livraison_logistique": {
+    "mode_livraison": "expédition",
+    "date_expedition_prevue": "2024-09-28",
+    "date_livraison_estimee": "2024-09-30",
+    "transporteur": "dhl",
+    "numero_suivi": "dh123456789fr",
+    "etat_livraison": "en transit"
+  },
+  "historique_suivi": {
+    "cree_par": "marie dupont",
+    "date_modification": "2024-09-24t10:45:00z",
+    "actions": [
+      {
+        "action": "création de la commande",
+        "date": "2024-09-24t09:30:00z",
+        "effectue_par": "marie dupont"
+      },
+      {
+        "action": "validation de la commande",
+        "date": "2024-09-24t10:45:00z",
+        "effectue_par": "marie dupont"
+      }
+    ],
+    "commentaires": "livraison prioritaire demandée."
+  },
+  "documents_associes": {
+    "bon_de_commande": "http://example.com/commande/cmd20240924001.pdf",
+    "facture": null,
+    "bon_de_livraison": null,
+    "contrats_devis": null
+  }
+}

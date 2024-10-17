@@ -1,0 +1,7 @@
+{
+    "suppliers": [
+      {"supplierId": "S001", "name": "Fournisseur A", "contact": "contact@fournisseura.com", "paymentTerms": "30 jours", "deliveryTime": "7 jours", "transactionHistory": 50},
+      {"supplierId": "S002", "name": "Fournisseur B", "contact": "contact@fournisseurb.com", "paymentTerms": "60 jours", "deliveryTime": "10 jours", "transactionHistory": 30}
+    ]
+  }
+  

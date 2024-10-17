@@ -1,0 +1,10 @@
+{
+    "movementId": "M004",
+    "itemId": "G910",
+    "type": "exit",
+    "quantity": 15,
+    "warehouse": "Entrepôt B",
+    "date": "2024-09-24",
+    "reason": "vente"
+  }
+  

@@ -1,0 +1,81 @@
+- Tableau de bord (Dashboard)
+  - Statistiques générales
+  - Indicateurs de performance
+  - Notifications importantes
+
+- Gestion des équipements
+  - Liste des équipements
+  - Ajouter un équipement
+  - Modifier un équipement
+  - Historique de maintenance
+  - Rapports sur les équipements
+
+- Gestion des ateliers
+  - Liste des ateliers
+  - Ajouter/modifier un atelier
+  - Affectation des équipements
+  - Horaires d'ouverture et gestion du personnel
+
+- Gestion des stocks
+  - Liste des articles
+  - Ajouter un article
+  - Réapprovisionnement
+  - Suivi des mouvements de stock
+  - Rapports d'inventaire
+
+- Gestion des mouvements
+  - Suivi des entrées/sorties de stock
+  - Historique des mouvements
+  - Notifications de réapprovisionnement
+
+- Gestion des achats
+  - Liste des fournisseurs
+  - Commandes d'achat
+  - Réception des produits
+  - Historique des achats
+  - Factures fournisseurs
+
+- Gestion commerciale
+  - Clients
+    - Liste des clients
+    - Ajouter un client
+    - Modifier les informations d’un client
+  - Devis
+    - Créer un devis
+    - Historique des devis
+    - Valider ou rejeter un devis
+  - Commandes clients
+    - Créer une commande
+    - Suivi des commandes
+    - Historique des commandes
+  - Facturation
+    - Génération des factures
+    - Gestion des paiements
+    - Historique des factures
+
+- Gestion du personnel
+  - Liste des employés
+  - Fiches des employés (détails personnels, rôle, atelier affecté)
+  - Gestion des horaires et affectations
+  - Rapports d'activités
+
+- Gestion des utilisateurs
+  - Liste des utilisateurs
+  - Créer/Modifier un utilisateur
+  - Gestion des rôles et permissions
+  - Historique de connexion
+
+- Paramètres
+  - Configuration générale du système
+  - Paramètres de sécurité
+  - Notifications et alertes
+
+- Rapports et statistiques
+  - Générer des rapports personnalisés
+  - Suivi des performances
+  - Export des rapports (PDF, Excel)
+
+- Aide et support
+  - Documentation utilisateur
+  - Contact support
+  - FAQ

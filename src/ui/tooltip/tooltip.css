@@ -1,0 +1,53 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-top::before,
+.tooltip-bottom::before,
+.tooltip-left::before,
+.tooltip-right::before {
+    content: 'toolttip content voir CSS';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-top::before {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip-bottom::before {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip-left::before {
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+}
+
+.tooltip-right::before {
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+
+.tooltip:hover::before {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-text {
+    white-space: nowrap;
+}

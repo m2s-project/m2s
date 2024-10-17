@@ -1,0 +1,56 @@
+.modules {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius);
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+    min-width: 150px;
+}
+
+.module-icon {
+    position: relative;
+    border-bottom: 1px solid var(--bg-color);
+}
+
+.module-filter {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.4s ease;
+}
+
+.module-filter:hover {
+    cursor: pointer;
+    background-color: var(--main-bg);
+    border-radius: var(--border-radius);
+}
+
+.module-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: var(--border-radius);
+   padding: var(--padding);
+    opacity: 0;
+    font-weight: 200;
+}
+
+.module-filter:hover .module-btn:hover{
+    opacity: 1;
+    color: var(--main-color);
+    font-weight: 400;
+}
+
+.module-title {}
+
+.module-name {
+    font-weight: 300;
+    font-size: 20px;
+}

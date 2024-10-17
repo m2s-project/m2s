@@ -1,0 +1,83 @@
+{
+    "id_inventaire": "INV123456",
+    "nom": "Inventaire de la salle de stockage A",
+    "description": "Inventaire pour la gestion des outils et pièces détachées.",
+    "date_creation": "2024-01-01",
+    "date_mise_a_jour": "2024-09-30",
+    "articles": [
+      {
+        "id_article": "ART001",
+        "nom_article": "Vis M6",
+        "categorie": "Quincaillerie",
+        "quantite_disponible": 150,
+        "quantite_minimale": 50,
+        "emplacement": "Étagère 1, Rangée A",
+        "etat": "Neuf",
+        "prix_unitaire": 0.10,
+        "valeur_totale": 15.00,
+        "date_ajout": "2024-01-02"
+      },
+      {
+        "id_article": "ART002",
+        "nom_article": "Clé à molette",
+        "categorie": "Outils",
+        "quantite_disponible": 75,
+        "quantite_minimale": 20,
+        "emplacement": "Étagère 2, Rangée B",
+        "etat": "Neuf",
+        "prix_unitaire": 5.50,
+        "valeur_totale": 412.50,
+        "date_ajout": "2024-01-10"
+      },
+      {
+        "id_article": "ART003",
+        "nom_article": "Lubrifiant",
+        "categorie": "Consommables",
+        "quantite_disponible": 30,
+        "quantite_minimale": 10,
+        "emplacement": "Étagère 3, Rangée C",
+        "etat": "Neuf",
+        "prix_unitaire": 7.00,
+        "valeur_totale": 210.00,
+        "date_ajout": "2024-01-15"
+      }
+    ],
+    "historique_mouvements": {
+      "entrees": [
+        {
+          "date_mouvement": "2024-09-01",
+          "quantite": 100,
+          "raison": "Réapprovisionnement",
+          "article": "Vis M6"
+        },
+        {
+          "date_mouvement": "2024-09-15",
+          "quantite": 50,
+          "raison": "Réapprovisionnement",
+          "article": "Lubrifiant"
+        }
+      ],
+      "sorties": [
+        {
+          "date_mouvement": "2024-09-10",
+          "quantite": 25,
+          "raison": "Utilisation pour maintenance",
+          "article": "Clé à molette"
+        }
+      ]
+    },
+    "statistiques": {
+      "valeur_totale_inventaire": 637.50,
+      "nombre_total_articles": 3,
+      "taux_rotation_stocks": 0.5
+    },
+    "alertes_reapprovisionnement": [
+      {
+        "id_article": "ART003",
+        "nom_article": "Lubrifiant",
+        "quantite_disponible": 30,
+        "quantite_minimale": 10
+      }
+    ]
+  }
+  

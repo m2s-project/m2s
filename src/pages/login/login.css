@@ -1,0 +1,116 @@
+.login {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.login img{
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border: var(--border);
+}
+.login form {
+    padding: 25px 5px;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+}
+
+
+.input-label-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+
+
+}
+
+.input-label-box input {
+    width: 100%;
+   padding: var(--padding);
+  
+    box-shadow: var(--box-shadow);
+ 
+    border: var(--border);
+    background: transparent;
+    border-radius: var(--border-radius);
+ 
+    text-align: center;
+    margin: 0 1px;
+
+}
+
+.input-label-box input:focus{
+    outline-color: var(--main-color);
+   
+}
+
+.input-label-box label {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+    pointer-events: none;
+    transition: 0.2s ease-in;
+    font-size: var(--font-size);
+
+}
+
+.input-label-box input:focus~label,
+.input-label-box input:valid~label {
+    top: -5px;
+    left: 10px;
+    right: 10px;
+
+    font-size: 1rem;
+    color: var(--main-color);
+    font-size: var(--font-size);
+   
+}
+
+.login-button{
+
+    display: flex;
+    justify-content:  flex-end;
+    margin-right: 13px;
+}
+.login-button button {
+   padding: var(--padding);
+   border: var(--border);
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: var(--border-radius);
+    /* border: none; */
+    box-shadow: var(--box-shadow);
+    font-size: var(--font-size);
+    color: var(--gre-color);
+ 
+}
+
+.login-button button:hover {
+   padding: var(--padding);
+    
+    cursor: pointer;
+    background-color: blue;
+    border-radius: var(--border-radius);
+    color: white;
+    box-shadow: var(--box-shadow);
+  
+
+}
+
+.register{
+    position: relative;
+    width: 100%;
+    padding: var(--padding);
+    border: var(--border); 
+}

@@ -1,0 +1,94 @@
+{
+    "identifiantUtilisateur": "EMP001",
+    "nomComplet": "Jean Dupont",
+    "sexe": "Masculin",
+    "dateNaissance": "1985-05-15",
+    "telephone": "+33123456789",
+    "email": "jean.dupont@example.com",
+    "adresse": {
+      "rue": "123 Rue de la République",
+      "ville": "Paris",
+      "codePostal": "75001",
+      "pays": "France"
+    },
+    "matricule": "JD1985",
+    "poste": "Technicien de Maintenance",
+    "service": "Maintenance Électrique",
+    "dateEmbauche": "2015-06-01",
+    "typeContrat": "CDI",
+    "horairesTravail": {
+      "jours": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
+      "heures": "08:00 - 16:00"
+    },
+    "responsabilites": [
+      "Maintenance préventive des équipements électriques",
+      "Réparation des moteurs et des générateurs"
+    ],
+    "roleDansLeSysteme": "Technicien",
+    "niveauAcces": "Lecture et écriture",
+    "modulesAccessibles": ["Ordres de Travail", "Historique des Interventions", "Gestion des Stocks"],
+    "historiqueConnexions": [
+      {"date": "2024-09-10", "heure": "09:00"},
+      {"date": "2024-09-11", "heure": "08:30"}
+    ],
+    "historiqueActions": [
+      {"date": "2024-09-10", "action": "Création d'un ordre de travail"},
+      {"date": "2024-09-11", "action": "Mise à jour du stock"}
+    ],
+    "certifications": ["Certificat d'électricien niveau 2", "Formation sécurité électrique"],
+    "competences": ["Électricité industrielle", "Diagnostic de pannes", "Lecture de plans électriques"],
+    "languesParlees": ["Français", "Anglais"],
+    "experience": 10,
+    "formations": ["Formation en automatisme industriel", "Formation en sécurité au travail"],
+    "permis": ["Permis B", "CACES R486"],
+    "ordresTravailAttribues": [
+      {"ordre": "OT123", "date": "2024-09-11", "description": "Réparation d'un moteur électrique"},
+      {"ordre": "OT124", "date": "2024-09-12", "description": "Entretien préventif des pompes"}
+    ],
+    "historiqueInterventions": [
+      {"date": "2024-09-10", "intervention": "Réparation d'une génératrice", "resultat": "Succès"},
+      {"date": "2024-09-09", "intervention": "Remplacement d'un transformateur", "resultat": "Succès"}
+    ],
+    "salaire": 32000,
+    "conges": {
+      "joursPris": 10,
+      "joursRestants": 20
+    },
+    "absences": [
+      {"date": "2024-08-15", "motif": "Maladie"}
+    ],
+    "evaluations": [
+      {"date": "2024-07-01", "note": 4.5, "commentaire": "Très bonne performance"},
+      {"date": "2023-12-01", "note": 4.0, "commentaire": "Bonne performance globale"}
+  ],
+  "primesBonus": [
+    {"date": "2024-06-01", "montant": 500, "motif": "Excellence dans la maintenance"},
+    {"date": "2023-12-01", "montant": 300, "motif": "Réduction du temps d'arrêt des machines"}
+  ],
+  "formationsSecurite": [
+    {"date": "2024-01-15", "nom": "Formation sécurité électrique", "validite": "2025-01-15"},
+    {"date": "2023-01-15", "nom": "Formation sur le port des EPI", "validite": "2024-01-15"}
+  ],
+  "equipementsProtectionIndividuelle": [
+    "Casque de protection",
+    "Gants isolants",
+    "Lunettes de protection"
+  ],
+  "accidents": [
+    {"date": "2022-05-10", "description": "Chute d'un escabeau", "gravite": "Légère"}
+  ],
+  "proceduresSecurite": [
+    "Respect des consignes de sécurité électriques",
+    "Port obligatoire des EPI en zones à risque"
+  ],
+  "notesCommentaires": [
+    {"date": "2024-09-11", "commentaire": "Travail exemplaire sous pression"},
+    {"date": "2024-08-15", "commentaire": "Besoin d'améliorer les délais de réponse"}
+  ],
+  "feedbackSuggestions": [
+    {"date": "2024-07-10", "suggestion": "Améliorer les outils de diagnostic pour les pannes électriques"},
+    {"date": "2024-06-15", "suggestion": "Plus de formations sur les nouvelles technologies"}
+  ]
+}
+
+  

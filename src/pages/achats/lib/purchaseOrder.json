@@ -1,0 +1,15 @@
+{
+    "purchaseOrder": {
+      "orderId": "PO001",
+      "supplierId": "S001",
+      "items": [
+        {"itemId": "A123", "quantity": 100, "unitPrice": 10, "totalPrice": 1000},
+        {"itemId": "B456", "quantity": 50, "unitPrice": 20, "totalPrice": 1000}
+      ],
+      "orderDate": "2024-09-24",
+      "expectedDeliveryDate": "2024-10-01",
+      "paymentTerms": "30 jours",
+      "totalAmount": 2000
+    }
+  }
+  

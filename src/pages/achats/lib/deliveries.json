@@ -1,0 +1,12 @@
+{
+    "deliveries": [
+      {"deliveryId": "D001", "orderId": "PO001", "expectedDate": "2024-10-01", "receivedDate": null, "items": [
+        {"itemId": "A123", "quantityExpected": 100, "quantityReceived": 0},
+        {"itemId": "B456", "quantityExpected": 50, "quantityReceived": 0}
+      ]},
+      {"deliveryId": "D002", "orderId": "PO002", "expectedDate": "2024-09-28", "receivedDate": "2024-09-27", "items": [
+        {"itemId": "C789", "quantityExpected": 30, "quantityReceived": 30}
+      ]}
+    ]
+  }
+  

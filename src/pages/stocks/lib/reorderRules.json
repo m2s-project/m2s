@@ -1,0 +1,7 @@
+{
+    "reorderRules": [
+      {"ruleId": "RR001", "itemId": "A123", "minStockLevel": 20, "reorderQuantity": 50, "supplierId": "S001"},
+      {"ruleId": "RR002", "itemId": "B456", "minStockLevel": 10, "reorderQuantity": 100, "supplierId": "S002"}
+    ]
+  }
+  

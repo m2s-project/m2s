@@ -1,0 +1,47 @@
+.tree-container {
+    /* padding-left: 10px; */
+   font-weight: 300;
+  }
+  .tree-container-icon{
+
+    opacity: 0;
+  }
+  .tree-container-items:hover{
+    
+    background-color: var(--grey-color);
+    border-radius: var(--border-radius);
+  }
+  .tree-node {
+    margin-left: 5px;
+    position: relative;
+  }
+  
+  .node-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+  }
+  .node-label:hover, .tree-container-items span:hover{
+    opacity: 1;
+    color: var(--main-color);
+  }
+  .toggle-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    /* margin-right: 8px; */
+    font-weight: bold;
+    margin: 5px;
+  }
+  .toggle-icon svg{
+    margin-top: 3px;
+  }
+  
+  .node-children {
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+  }
+  

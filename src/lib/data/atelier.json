@@ -1,0 +1,63 @@
+{
+    "id": "ATEL123456",
+    "nom": "Atelier Mécanique Pro",
+    "type": "Réparation automobile",
+    "description": "Atelier spécialisé dans la mécanique générale, les réparations et l'entretien des véhicules.",
+    "emplacement": {
+      "adresse": "123 Rue de l'Automobile, 75000 Paris, France",
+      "capacite": 5,
+      "superficie": "200 m²"
+    },
+    "equipements": [
+      {
+        "nom": "Pont élévateur",
+        "type": "Hydraulique",
+        "etat": "Fonctionnel"
+      },
+      {
+        "nom": "Compresseur",
+        "type": "Électrique",
+        "etat": "Fonctionnel"
+      },
+      {
+        "nom": "Machine de diagnostic",
+        "type": "Numérique",
+        "etat": "Hors service"
+      },
+      {
+        "nom": "Outils manuels",
+        "type": "Divers",
+        "etat": "Fonctionnels"
+      }
+    ],
+    "donnees_exploitation": {
+      "horaires_ouverture": "Lundi - Vendredi: 8h00 - 18h00, Samedi: 9h00 - 13h00",
+      "nombre_mecaniciens": 4,
+      "nombre_vehicules_traite_par_mois": 120
+    },
+    "systeme_gestion": {
+      "logiciel_utilise": "Garage Manager Pro",
+      "historique_interventions": [
+        {
+          "date": "2024-09-15",
+          "vehicule": "Renault Clio",
+          "type_intervention": "Changement de plaquettes de frein",
+          "technicien": "Julien Dupont"
+        },
+        {
+          "date": "2024-09-10",
+          "vehicule": "Peugeot 308",
+          "type_intervention": "Révision complète",
+          "technicien": "Marie Martin"
+        }
+      ]
+    },
+    "securite_conformite": {
+      "normes_securite": "Conforme aux normes de sécurité en vigueur.",
+      "certifications": [
+        "Certificat de mécanicien",
+        "ISO 9001"
+      ]
+    }
+  }
+  

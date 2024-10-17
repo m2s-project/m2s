@@ -1,0 +1,56 @@
+{
+    "vente": {
+      "id_vente": "VNT20240930",
+      "date_vente": "2024-09-30",
+      "id_client": "CLT987654",
+      "nom_client": "Société ABC",
+      "mode_paiement": "Carte de crédit",
+      "etat_vente": "Complété",
+      "montant_total": 1200.00,
+      "remise": {
+        "montant": 100.00,
+        "pourcentage": 8.33
+      },
+      "articles": [
+        {
+          "id_article": "ART001",
+          "nom_article": "Ordinateur portable",
+          "quantite": 2,
+          "prix_unitaire": 600.00,
+          "total": 1200.00,
+          "taxes": 0.00
+        },
+        {
+          "id_article": "ART002",
+          "nom_article": "Souris sans fil",
+          "quantite": 1,
+          "prix_unitaire": 50.00,
+          "total": 50.00,
+          "taxes": 10.00
+        }
+      ]
+    },
+    "facturation": {
+      "id_facture": "FAC20240930",
+      "date_emission": "2024-09-30",
+      "date_echeance": "2024-10-30",
+      "montant_total_facture": 1300.00,
+      "conditions_paiement": "Paiement net à 30 jours",
+      "adresse_facturation": {
+        "rue": "123 Rue de l'Innovation",
+        "ville": "Paris",
+        "code_postal": "75001",
+        "pays": "France"
+      },
+      "notes": "Merci de votre confiance.",
+      "vendeur": {
+        "id_vendeur": "VDR001",
+        "nom_vendeur": "Julien Dupont",
+        "contact": {
+          "telephone": "+33 1 23 45 67 89",
+          "email": "julien.dupont@exemple.com"
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,12 @@
+
+{
+    "totalStockValue": 150000,
+    "totalItems": 250,
+    "lowStockItems": 10,
+    "outOfStockItems": 5,
+    "topMovements": [
+      {"itemId": "A123", "itemName": "Vis", "movements": 500},
+      {"itemId": "B456", "itemName": "Boulon", "movements": 300}
+    ]
+  }
+  
